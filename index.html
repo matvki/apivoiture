@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Le garage à voitures</title>
+</head>
+
+<body>
+    <header>
+        <p class="pointer" onclick="allMarques()">Toutes les marques de voiture</p>
+        <div id="previously">
+        </div>
+    </header>
+    <div id="header">
+        <h1>Le garage à voitures</h1>
+    </div>
+    <main>
+        <div id="index">
+            <p>Bienvenue sur un site de Voitures</p>
+            <p class="pointer" onclick="allMarques()">Cliquez pour afficher la liste des marques de voitures !</p>
+        </div>
+        <div id="allMarques" class="none">
+            <ul id="ulIndex">
+            </ul>
+        </div>
+        <div id="carOM" class="none">
+            <ul id="ulCarOM">
+            </ul>
+        </div>
+        <div id="dateOC" class="none">
+            <ul id="ulDateOC">
+            </ul>
+        </div>
+        <div id="car" class="none">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Année du model</th>
+                        <th>Carburant</th>
+                        <th>Marque</th>
+                        <th>Dernière mise à jour</th>
+                        <th>Model</th>
+                        <th>Prix</th>
+                    </tr>
+                </thead>
+                <tbody id="tCar">
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>

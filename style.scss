@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.pointer {
+    cursor: pointer;
+}
+.none {
+    display: none;
+}
+body {
+    header {
+        display: flex;
+        width: 100vw;
+        margin: 0 auto;
+        height: 20vh;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20px;
+        background-color: rgba(184, 83, 83, 0.678);
+        font-size: 20px;
+        p {
+            color: white;
+            background-color: rgb(110, 4, 4);
+            box-shadow: 5px 5px 10px rgb(97, 97, 97);
+            padding: 5px;
+        }
+    }
+    div#header {
+        background-color: rgb(241, 19, 19);
+        border: solid 3px black;
+        width: 30vw;
+        margin: -30px auto;
+        text-align: center;
+        h1 {
+            padding: 20px 0;
+            font-size: 40px;
+            color: rgb(0, 0, 0);
+        }
+    }
+    main {
+        margin-top: 100px;
+        div {
+            &#index {
+                text-align: center;
+                p {
+                    font-size: 50px;
+                }
+            }
+            &#allMarques {
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 100vw;
+                    flex-wrap: wrap;
+                    li {
+                        list-style: none;
+                        padding: 10px;
+                        margin: 20px;
+                        background-color: rgb(79, 214, 192);
+                        box-shadow: 5px 5px 10px rgb(97, 97, 97);
+                    }
+                }
+            }
+            &#carOM {
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 100vw;
+                    flex-wrap: wrap;
+                    li {
+                        margin: 20px;
+                        padding: 10px;
+                        list-style: none;
+                        background-color: rgb(140, 214, 79);
+                        box-shadow: 5px 5px 10px rgb(97, 97, 97);
+                    }
+                }
+            }
+            &#dateOC {
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 100vw;
+                    flex-wrap: wrap;
+                    li {
+                        margin: 20px;
+                        padding: 10px;
+                        list-style: none;
+                        color: white;
+                        background-color: rgb(149, 79, 214);
+                        box-shadow: 5px 5px 10px rgb(97, 97, 97);
+                    }
+                }
+            }
+            &#car {
+                table {
+                    margin: 0 auto;
+                    text-align: center;
+                    thead {
+                        tr {
+                            th {
+                                border: solid 2px black;
+                                background-color: rgba(184, 83, 83, 0.678);
+                                padding: 10px;
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                            td{
+                                padding: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
